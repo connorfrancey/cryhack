@@ -1,6 +1,7 @@
 package cryhack.module;
 
 import cryhack.module.movement.Flight;
+import cryhack.module.movement.Sprint;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,5 +29,6 @@ public class ModuleManager {
 
     private void addModules() {
         modules.add(new Flight());
+        modules.add(new Sprint());
     }
 }
